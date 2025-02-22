@@ -19,10 +19,10 @@ long long fibonacci(long long value) {
 }
 
 int main() {
-    long value;
+    long long value;
     printf("Enter a value: ");
 
-    if (scanf("%ld", &value) != 1) {
+    if (scanf("%lld", &value) != 1) {
         printf("Invalid input.\n");
         return 1; 
     }
@@ -38,7 +38,7 @@ int main() {
     }
 
     long long result = fibonacci(value);
-    printf("Fibonacci(%ld) = %lld\n", value, result);
+    printf("%lld = %lld\n", value, result);
 
     free_memo(); 
     return 0;
