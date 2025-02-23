@@ -5,7 +5,7 @@
 
 typedef struct {
     long long key;
-    unsigned long long value;
+    long long value;
 } Pair;
 
 void add_val (long long key, long long value);
