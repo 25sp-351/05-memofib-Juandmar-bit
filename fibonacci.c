@@ -32,7 +32,7 @@ int main() {
         return 1;
     }
 
-    if (value > 1000) {  
+    if (value > 92) {  
         printf("Value too large to compute.\n");
         return 1;
     }
